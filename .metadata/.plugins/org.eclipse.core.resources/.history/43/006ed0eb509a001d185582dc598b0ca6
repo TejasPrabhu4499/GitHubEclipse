@@ -1,0 +1,17 @@
+package com.aurionpro.homework;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter The Number");
+		int input = sc.nextInt();
+		if (input % 2 != 0&& input /2==0) {
+			System.out.println("The Number is Prime");
+		} else {
+			System.out.println("The Number is Not a Prime Number");
+		}
+	}
+}

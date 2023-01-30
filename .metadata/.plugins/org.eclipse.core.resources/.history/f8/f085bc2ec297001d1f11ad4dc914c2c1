@@ -1,0 +1,14 @@
+package test2;
+
+public class TreasureHunt {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to Treasure Island Your Mission is to find the Treasure");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Select Left or Right");
+		char a=sc.nextchar();
+		if char a=("Left");
+		System.out.println("You won");
+	}
+
+}

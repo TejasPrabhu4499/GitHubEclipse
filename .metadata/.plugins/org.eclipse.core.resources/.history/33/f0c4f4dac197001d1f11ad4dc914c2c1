@@ -1,0 +1,9 @@
+package test2;
+
+public class TreasureHunt {
+
+	public static void main(String[] args) {
+ System.out.println("Welcome to Treasure Island Your Mission is to find the Treasure");
+	}
+
+}

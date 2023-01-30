@@ -1,0 +1,27 @@
+package com.swahav.com;
+
+import java.util.Scanner;
+
+public class practiceProblems {
+
+	public static void main(String[] args) {
+		System.out.println("*****Two Numbers Adder******");
+		int a;
+		int b;
+		System.out.println("Enter two Numbers to be added:");
+		Scanner sc = new Scanner(System.in);
+		a = sc.nextInt();
+		b = sc.nextInt();
+		int result = a + b;
+		{
+			System.out.println("The addition of two numbers is:" + result);
+		}
+		int subtraction=a-b;
+		int multiplication=a*b;
+		int division=a/b;
+
+		sc.close();
+
+	}
+
+}
